@@ -1829,6 +1829,10 @@ footer .footer-additional .inc {
     height: 140vw;
   }
 
+  section.tutorial .tutorial-imgblock.left.last img.mobile {
+    height: auto;
+  }
+
   section.tutorial .tutorial-imgblock.left.last .tutorial__number-block {
     bottom: -30%;
   }
