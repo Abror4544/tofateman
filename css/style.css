@@ -1831,7 +1831,7 @@ footer .footer-additional .inc {
   
   section.tutorial .tutorial-imgblock.left.last img.mobile,
   section.tutorial .tutorial-imgblock.right.last img.mobile{
-    height: auto;
+    height: 55vw;
   }
  
   section.tutorial .tutorial-imgblock.left.last .tutorial__number-block {
