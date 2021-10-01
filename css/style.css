@@ -922,15 +922,15 @@ section.condition .title {
   position: relative;
 }
 
-section.condition .title::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
+section.condition .condition-title-block hr{
   width: 143px;
   height: 2px;
-  background: #3ddcff;
+  border-top: 1px solid #3ddcff;
+  border-bottom: 1px solid #3ddcff;
+  border-left: none;
+  border-right: none;
 }
+
 
 section.app {
   padding-bottom: 87px;
@@ -1823,12 +1823,11 @@ footer .footer-additional .inc {
   section.tutorial .tutorial-imgblock img {
     display: none;
   }
-  
+
   section.tutorial .tutorial-imgblock img.mobile {
     display: block;
     height: 140vw;
-  }
-  
+  }  
  
   section.tutorial .tutorial-imgblock.left.last img.mobile{
     height: 57vw;
@@ -1837,7 +1836,7 @@ footer .footer-additional .inc {
   section.tutorial .tutorial-imgblock.right.last img.mobile{
     height: 43vw;
   }
- 
+
   section.tutorial .tutorial-imgblock.left.last .tutorial__number-block {
     bottom: -30%;
   }
@@ -1914,14 +1913,12 @@ footer .footer-additional .inc {
   section.condition .condition__img {
     display: none;
   }
-
-  section.condition .title::after {
-    position: initial;
+  
+  section.condition .condition-title-block hr{
     margin-top: 30px;
   }
 
-  section.condition .title {
-    font-size: 36px;
+  section.condition .condition-title-block{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1935,6 +1932,10 @@ footer .footer-additional .inc {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }  
+
+  section.condition .title {
+    font-size: 36px;
     padding-bottom: 0;
   }
 
