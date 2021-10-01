@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToFate 4.1</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-effect">
+            <div class="container">
+                <nav>
+                    <a href="#/" class="logo">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                    <div class="header-menu">
+                        <div class="header-menu__panel">
+                            <a href="#/" class="logo">
+                                <img src="images/logo.png" alt="Logo">
+                            </a>
+                            <img src="images/icons/close.svg" class="close" alt="Close">
+                        </div>
+                        <div class="header-menu__links">
+                            <a href="#profit" class="header-menu__link">Ты получишь</a>
+                            <a href="#aim" class="header-menu__link">В чем суть</a>
+                            <a href="#condition" class="header-menu__link">Условия участия</a>
+                        </div>
+                        <div class="header-menu__buttons">
+                            <a href="javascript:;" class="header-menu__link" data-fancybox data-src="#modal-form">
+                                Узнать подробности
+                            </a>
+                            <a href="javascript:;" class="button" data-fancybox data-src="#modal-form">
+                                Подать заявку
+                            </a>
+                        </div>
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="menu__bar">
+                        <img src="images/icons/bar.svg" class="bar" alt="Bar">
+                    </div>
+                </nav>
+                <div class="header-content">
+                    <p class="header__text">Стань участником самого необычного</p>
+                    <h1 class="header__title">Интерактивного реалити-шоу<br>
+                        “К Судьбе” и <span>выиграй<br>
+                            BMW 7 Серии</span>
+                        <div class="light"></div>
+                    </h1>
+                    <p class="header__slogan">Монетизируй свою аудиторию<br>
+                        выгодно!</p>
+                    <a href="javascript:;" class="button" data-fancybox data-src="#modal-form">
+                        Узнать подробности
+                    </a>
+                    <img src="images/bmw.png" alt="Porsche" class="header__img">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="page">
+
+        <section id="profit" class="profit">
+            <div class="container">
+                <div class="title-block">
+                    <h4 class="title">Ты получишь</h4>
+                    <div class="light"></div>
+                </div>
+                <div class="shadow"></div>
+                <div class="profit-wrapper">
+                    <div class="profit-item">
+                        <img src="images/icons/profit1.svg" alt="Icon" class="profit__icon">
+                        <p class="profit__text">Пиар</p>
+                    </div>
+                    <div class="profit-item">
+                        <img src="images/icons/profit2.svg" alt="Icon" class="profit__icon">
+                        <p class="profit__text">Внимание прессы</p>
+                    </div>
+                    <div class="profit-item">
+                        <img src="images/icons/profit3.svg" alt="Icon" class="profit__icon">
+                        <p class="profit__text">Новых подписчиков
+                            в Инстаграм</p>
+                    </div>
+                    <div class="profit-item">
+                        <img src="images/icons/profit4.svg" alt="Icon" class="profit__icon">
+                        <p class="profit__text">Шикарные
+                            фотосессии</p>
+                    </div>
+                    <div class="profit-item">
+                        <img src="images/icons/profit5.svg" alt="Icon" class="profit__icon">
+                        <p class="profit__text"><span>Процент от оплат</span> своих подписчиков участвующих
+                            в конкурсе
+                        </p>
+                    </div>
+                    <div class="profit-item">
+                        <img src="images/icons/profit6.svg" alt="Icon" class="profit__icon">
+                        <p class="profit__text">В случае выхода в финал<br> <span>Поездку на Остров Пхукет</span></p>
+                    </div>
+
+                </div>
+                <div class="profit-item mobile">
+                    <div class="profit-item--left car">
+                        <p class="profit__text mini">Победитель получит главный приз</p>
+                        <p class="title car">BMW 7 Серии</p>
+                        <a href="javascript:;" class="button" data-fancybox data-src="#modal-form">Узнать
+                            подробности</a>
+                    </div>
+                    <div class="profit-item--right">
+                        <img src="images/bmw.png" alt="Profit" class="profit__img car mobile">
+                    </div>
+                </div>
+                <a href="javascript:;" class="button mobile" data-fancybox data-src="#modal-form">Узнать подробности</a>
+            </div>
+        </section>
+
+        <section id="aim" class="aim">
+            <div class="container">
+                <div class="title-block">
+                    <h4 class="title">В чем суть шоу</h4>
+                    <div class="light"></div>
+                </div>
+                <div class="aim-slogan-block">
+                    <p class="aim__slogan">Тысячи женщин борются за внимание мужчин<br>
+                        <span>в режиме виртуального соревнования</span>
+                    </p>
+                </div>
+                <div class="aim-wrapper">
+                    <div class="aim-item">
+                        <img src="images/icons/desc1.svg" alt="Icon" class="aim__icon">
+                        <p class="aim__text">Международный
+                            формат проведения
+                        </p>
+                    </div>
+                    <div class="aim-item">
+                        <img src="images/icons/desc2.svg" alt="Icon" class="aim__icon">
+                        <p class="aim__text">Дорогие призы и бонусы</p>
+                    </div>
+                    <div class="aim-item">
+                        <img src="images/icons/desc3.svg" alt="Icon" class="aim__icon">
+                        <p class="aim__text">Профессиональная команда
+                            и лучшие решения
+                        </p>
+                    </div>
+                    <div class="aim-item">
+                        <img src="images/icons/desc4.svg" alt="Icon" class="aim__icon">
+                        <p class="aim__text">Эксклюзивный формат проведения проекта через приложение ToFate
+                        </p>
+                    </div>
+                    <div class="aim-item">
+                        <img src="images/icons/desc5.svg" alt="Icon" class="aim__icon">
+                        <p class="aim__text">Возможности заработка не ограничены и бессовестно велики
+                        </p>
+                    </div>
+                    <div class="aim-item">
+                        <img src="images/icons/desc6.svg" alt="Icon" class="aim__icon">
+                        <p class="aim__text">Все официально и условия сотрудничества описаны в контракте
+                        </p>
+                    </div>
+                </div>
+                <div class="aim-button-block">
+                    <a href="javascript:;" class="button" data-fancybox data-src="#modal-form">Хочу участвовать</a>
+                </div>
+                <div class="shadow"></div>
+            </div>
+        </section>
+
+        <section class="tutorial">
+            <div class="container">
+                <div class="title-block">
+                    <h4 class="title">
+                        Как это происходит?
+                        <div class="light"></div>
+                    </h4>
+                </div>
+                <p class="tutorial__slogan">Интерактивное реалити шоу проводится<br><span> на базе платформы
+                        tofate.com</span></p>
+                <div class="tutorial-item">
+                    <div class="tutorial-imgblock left">
+                        <img src="images/gift/gift1.png" alt="screenshot" class="tutorial__img">
+                        <img src="images/mobile/gift/gift1.png" alt="screenshot" class="tutorial__img mobile">
+                        <div class="tutorial__number-block">
+                            <div class="tutorial__number-effect">
+                                <div class="tutorial__number">01
+                                    <div class="light"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tutorial-texts">
+                        <p class="tutorial__text">Для нового участника создается его личная интересная история, которая
+                            раскрывает его как личность. Создается фото и видео контент.</p>
+                    </div>
+                </div>
+                <div class="tutorial-item reverse">
+                    <div class="tutorial-texts">
+                        <p class="tutorial__text">В приложении создается дневник участника (аналог ленты в Инстаграме) с
+                            заранее запланированными постами.</p>
+                    </div>
+                    <div class="tutorial-imgblock right">
+                        <img src="images/gift/gift2.png" alt="screenshot" class="tutorial__img">
+                        <img src="images/mobile/gift/gift2.png" alt="screenshot" class="tutorial__img mobile">
+                        <div class="tutorial__number-block">
+                            <div class="tutorial__number-effect">
+                                <div class="tutorial__number">02
+                                    <div class="light"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tutorial-item">
+                    <div class="tutorial-imgblock left">
+                        <img src="images/gift/gift3.png" alt="screenshot" class="tutorial__img">
+                        <img src="images/mobile/gift/gift3.png" alt="screenshot" class="tutorial__img mobile">
+                        <div class="tutorial__number-block">
+                            <div class="tutorial__number-effect">
+                                <div class="tutorial__number">03
+                                    <div class="light"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tutorial-texts">
+                        <p class="tutorial__text">Участникам шоу каждый день открываются новые посты с частью истории о
+                            мужчине</p>
+                    </div>
+                </div>
+                <div class="tutorial-item reverse">
+                    <div class="tutorial-texts">
+                        <p class="tutorial__text">
+                            В чате приложения идет общение с участниками.
+                        </p>
+                    </div>
+                    <div class="tutorial-imgblock right">
+                        <img src="images/gift/gift4.png" alt="screenshot" class="tutorial__img">
+                        <img src="images/mobile/gift/gift4.png" alt="screenshot" class="tutorial__img mobile">
+                        <div class="tutorial__number-block">
+                            <div class="tutorial__number-effect">
+                                <div class="tutorial__number">04
+                                    <div class="light"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tutorial-item">
+                    <div class="tutorial-imgblock left">
+                        <img src="images/gift/gift5.png" alt="screenshot" class="tutorial__img">
+                        <img src="images/mobile/gift/gift5.png" alt="screenshot" class="tutorial__img mobile">
+                        <div class="tutorial__number-block">
+                            <div class="tutorial__number-effect">
+                                <div class="tutorial__number">05
+                                    <div class="light"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tutorial-texts">
+                        <p class="tutorial__text">Участники выполняют задания, дарят подарки, покупают пакеты баллов для
+                            того чтобы получить виртуальные призы (фото, селфи, аудио сообщения) или продвинуться в
+                            рейтинге.</p>
+                    </div>
+                </div>
+                <div class="tutorial-item reverse">
+                    <div class="tutorial-texts">
+                        <p class="tutorial__text">Все участники получают денежное вознаграждение за активность своих
+                            подписчиков.</p>
+                    </div>
+                    <div class="tutorial-imgblock right">
+                        <img src="images/gift/gift6.png" alt="screenshot" class="tutorial__img">
+                        <img src="images/mobile/gift/gift6.png" alt="screenshot" class="tutorial__img mobile">
+                        <div class="tutorial__number-block">
+                            <div class="tutorial__number-effect">
+                                <div class="tutorial__number">06
+                                    <div class="light"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tutorial-item">
+                    <div class="tutorial-imgblock left last">
+                        <img src="images/gift/gift7.png" alt="screenshot" class="tutorial__img">
+                        <img src="images/gift/gift7.png" alt="screenshot" class="tutorial__img mobile">
+                        <div class="tutorial__number-block">
+                            <div class="tutorial__number-effect">
+                                <div class="tutorial__number">07
+                                    <div class="light"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tutorial-texts">
+                        <p class="tutorial__text other">
+                            ТОП мужчин, которые набрали больше всего баллов от участников, выходят в <br><span>финал
+                                который
+                                пройдет на острове Пхукет</span>
+                        </p>
+                        <div class="light one"></div>
+                    </div>
+                </div>
+                <div class="tutorial-item last">
+                    <div class="tutorial-texts">
+                        <p class="tutorial__text">
+                            Победитель получает приз автомобиль<br><span>BMW 7 Серии</span>
+                        </p>
+                        <a href="javascript:;" class="button" data-fancybox data-src="#modal-form">
+                            Подать заявку
+                        </a>
+                        <div class="light two"></div>
+                    </div>
+                    <div class="tutorial-imgblock right last">
+                        <img src="images/bmw.png" alt="screenshot" class="tutorial__img">
+                        <img src="images/bmw.png" alt="screenshot" class="tutorial__img mobile">
+                        <div class="tutorial__number-block">
+                            <div class="tutorial__number-effect">
+                                <div class="tutorial__number">08
+                                    <div class="light"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:;" class="button mobile" data-fancybox data-src="#modal-form">
+                    Подать заявку
+                </a>
+
+            </div>
+        </section>
+
+        <section id="condition" class="condition">
+            <div class="container">
+                <div class="light"></div>
+                <div class="condition-wrapper">
+                    <img src="images/condition.png" alt="Girl" class="condition__img">
+                    <div class="condition-title-block">
+                        <h4 class="title">Условия участия
+                            для мужчин</h4>
+                    </div>
+                    <div class="condition-content">
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Отличные внешние данные</p>
+                        </div>
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Возраст от 20 - 40 лет</p>
+                        </div>
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Понимание сути таких проектов как “Холостяк”</p>
+                        </div>
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Готовность к фотосессиям и видеосъемкам для проекта</p>
+                        </div>
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Не состоящие в официальном браке</p>
+                        </div>
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Желающих стать частью проекта и следовать общей цели,
+                                зарабатыванию денег</p>
+                        </div>
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Готовых создавать контент заинтересовывающий участников и
+                                получать процент с каждого оплаченного чека внутри приложения</p>
+                        </div>
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Готовность рассказывать об участии в проекте в своих социальных
+                                сетях, привлекая дополнительную аудиторию в шоу.</p>
+                        </div>
+                        <div class="condition-item">
+                            <img src="images/icons/check.svg" alt="Icon" class="condition__check">
+                            <p class="condition__text">Наличие таких качеств как: фотогеничность, ответственность,
+                                креативность, коммуникабельность, харизматичность.</p>
+                        </div>
+                        <a href="javascript:;" class="button" data-fancybox data-src="#modal-form">
+                            Зарегистрироваться
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="app">
+            <div class="container">
+                <div class="app-wrap">
+                    <div class="light"></div>
+                    <div class="app-about">
+                        <div class="app__logo">
+                            <img src="images/applogo.png" alt="Logo">
+                        </div>
+                        <div class="app-description">
+                            <div class="app-panel">
+                                <h5 class="app__title">ToFate интерактивное реалити шоу</h5>
+
+                                <a href="javascript:;" class="button go_to_app">
+                                    Играть
+                                </a>
+                            </div>
+                            <p class="app__tag">Luka, IncЗдоровье и фитнес</p>
+                            <div class="app-rate">
+                                <div class="app-rate-stars">
+                                    <img src="images/icons/starfill.svg" alt="">
+                                    <img src="images/icons/starfill.svg" alt="">
+                                    <img src="images/icons/starfill.svg" alt="">
+                                    <img src="images/icons/starfill.svg" alt="">
+                                    <img src="images/icons/starunfill.svg" alt="">
+                                </div>
+                                <p class="app-rate__text">Оценка 4,7</p>
+                            </div>
+                            <p class="app-description__text">20 прекрасных девушек</p>
+                            <p class="app-description__text">Тысячи участников и ни одного проигравшего</p>
+                            <p class="app-description__text">Международный формат участия</p>
+                            <p class="app-description__text">Невероятные призы</p>
+                            <p class="app-description__text">Экслюзивный формат проведения</p>
+
+                        </div>
+                    </div>
+                    <p class="app-description__text mobile">Если вы чувствуете себя подавленным, беспокойным или вам
+                        просто нужно с кем-то поговорить, ваша Replika здесь для вас 24/7. Понимайте свои мысли и
+                        чувства, улучшайте свое эмоциональное самочувствие и изучайте новые навыки совладания с Replika,
+                        по одному чату за раз.</p>
+                </div>
+                <div class="swiper screenSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:;" data-src="video/main.mp4" data-fancybox="video">
+                                <img class="app__screen" src="images/screenshot/slidescreen1.png" alt="Screen">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;" data-src="images/screenshot/slidescreen2.png" data-fancybox="photo">
+                                <img class="app__screen" src="images/screenshot/slidescreen2.png" alt="Screen">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;" data-src="images/screenshot/slidescreen3.png" data-fancybox="photo">
+                                <img class="app__screen" src="images/screenshot/slidescreen3.png" alt="Screen">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;" data-src="images/screenshot/slidescreen4.png" data-fancybox="photo">
+                                <img class="app__screen" src="images/screenshot/slidescreen4.png" alt="Screen">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;" data-src="images/screenshot/slidescreen5.png" data-fancybox="photo">
+                                <img class="app__screen" src="images/screenshot/slidescreen5.png" alt="Screen">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;" data-src="images/screenshot/slidescreen6.png" data-fancybox="photo">
+                                <img class="app__screen" src="images/screenshot/slidescreen6.png" alt="Screen">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;" data-src="images/screenshot/slidescreen7.png" data-fancybox="photo">
+                                <img class="app__screen" src="images/screenshot/slidescreen7.png" alt="Screen">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="invite">
+            <div class="container">
+                <div class="invite-block">
+                    <h4 class="title">
+                        <div class="light"></div>
+                        Прими участие прямо сейчас
+                    </h4>
+                    <p class="invite__text">Шоу проводится ООО "Сервис",
+                        официальным представителем ToFate Ltd (UK) </p>
+                    <a href="javascript:;" class="button go_to_app" data-fancybox data-src="#modal-form">
+                        Принять участие
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="modal" id="modal-form" style="display: none;">
+        <div class="modal-wrapper">
+            <p class="modal__motiv">Хочешь участвовать?</p>
+            <h4 class="title">Заполни форму и мы свяжемся
+                с тобой в течении 2х дней!</h4>
+            <p class="modal__slogan">Для согласования условий участия заполните короткую анкету: </p>
+            <form id="form" class="form">
+                <div class="form-item">
+                    <p class="form__desc">Имя</p>
+                    <input type="text" class="form__input" placeholder="Введите данные">
+                </div>
+                <div class="form-item">
+                    <p class="form__desc">Возраст</p>
+                    <input type="text" class="form__input" placeholder="Введите данные">
+                </div>
+                <div class="form-item">
+                    <p class="form__desc">Instagram</p>
+                    <input type="text" class="form__input" placeholder="Введите данные">
+                </div>
+                <div class="form-item">
+                    <p class="form__desc">TikTok</p>
+                    <input type="text" class="form__input" placeholder="Введите данные">
+                </div>
+                <div class="form-item">
+                    <p class="form__desc">Номер телефона</p>
+                    <input type="text" class="form__input" placeholder="Введите данные">
+                </div>
+                <div class="form-item">
+                    <p class="form__desc">Кто ваша аудитория?</p>
+                    <textarea name="textarea" class="form__input textarea"
+                        placeholder="Опишите кратко, из кого состоит ваша база подписчиков"></textarea>
+                </div>
+                <input type="submit" class="button">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer__logo">
+                    <img src="images/footerlogo.png" alt="logo">
+                    <p class="footer__logotext">Самая реалистичная игра в любовь</p>
+                </div>
+                <div class="footer-menu">
+                    <ul class="footer-menu__list active">
+                        <div class="footer-menu__title">
+                            <p class="footer-menu__target">
+                                Product
+                            </p>
+                            <img src="images/icons/miniarrow.svg" alt="arrow">
+                        </div>
+                        <li><a href="#/">Starter Features</a></li>
+                        <li><a href="#/">Pro Features</a></li>
+                        <li><a href="#/">Boss Mode Features</a></li>
+                        <li><a href="#/">Reviews</a></li>
+                        <li><a href="#/">Pricing</a></li>
+                    </ul>
+                    <ul class="footer-menu__list">
+                        <div class="footer-menu__title">
+                            <p class="footer-menu__target">
+                                Resources
+                            </p>
+                            <img src="images/icons/miniarrow.svg" alt="arrow">
+                        </div>
+                        <li><a href="#/">Facebook Group</a></li>
+                        <li><a href="#/">Affiliate Partners</a></li>
+                        <li><a href="#/">The Jarvis Blog</a></li>
+                        <li><a href="#/">Expert Trainings</a></li>
+                    </ul>
+                    <ul class="footer-menu__list">
+                        <div class="footer-menu__title">
+                            <p class="footer-menu__target">
+                                Company
+                            </p>
+                            <img src="images/icons/miniarrow.svg" alt="arrow">
+                        </div>
+                        <li><a href="#/">About The Team</a></li>
+                        <li><a href="#/">Brand Style Guide</a></li>
+                        <li><a href="#/">200 E. 6th Street</a></li>
+                        <li><a href="#/">Suite 310</a></li>
+                        <li><a href="#/">Austin, TX 78701</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-soc">
+                    <a href="#/">
+                        <img src="images/icons/twitter.svg" alt="icon">
+                    </a>
+                    <a href="#/">
+                        <img src="images/icons/facebook.svg" alt="icon">
+                    </a>
+                    <a href="#/">
+                        <img src="images/icons/instagram.svg" alt="icon">
+                    </a>
+                    <a href="#/">
+                        <img src="images/icons/linkedin.svg" alt="icon">
+                    </a>
+                </div>
+                <div class="footer-additional">
+                    <a href="#/" class="inc">Privacy</a>
+                    <a href="#/" class="inc">Terms</a>
+                    <p class="inc">@ 2021 ToFate</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
