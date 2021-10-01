@@ -1823,16 +1823,17 @@ footer .footer-additional .inc {
   section.tutorial .tutorial-imgblock img {
     display: none;
   }
-
+  
+  section.tutorial .tutorial-imgblock img.mobile {
+    display: block;
+    height: 140vw;
+  }
+  
   section.tutorial .tutorial-imgblock.left.last img.mobile,
   section.tutorial .tutorial-imgblock.right.last img.mobile{
     height: auto;
   }
-
-  section.tutorial .tutorial-imgblock.left.last img.mobile {
-    height: auto;
-  }
-
+ 
   section.tutorial .tutorial-imgblock.left.last .tutorial__number-block {
     bottom: -30%;
   }
